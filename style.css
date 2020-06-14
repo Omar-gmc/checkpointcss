@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body{
+    background: #ffffff;
+}
+nav{
+    background-color:teal;
+    color: blanchedalmond;
+    z-index: 9999;
+    
+}
+nav div{
+    float: left;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav ul li{
+    padding : 5px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 30 px;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+nav ul li :hover{
+    background-color:black;
+    transition: 0.9s;
+}
+@media only screen and (max-width: 767px) {
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+main{
+    padding:100px 0 0 50px;
+    background-color :turquoise;
+}
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+#About{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px;
+    margin: 0 200px;
+    background-color: steelblue;
+}
+#Work{
+    background-color: steelblue;
+    margin: 50px 0;
+}
+.box-area{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.single-box{
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    transition: 3s;
+}
+.single-box :hover {
+    background :blue;
+    color:#fff;
+}
+#Work h2{
+    margin-left: 500px;
+}
+#Resume{
+width: 90%;
+margin: 0 auto;
+display: grid;
+background-color: steelblue;
+
+}
+
+.contact{
+    background:#262626;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin 0 20px;
+}
+.item{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: 3s;
+}
+
